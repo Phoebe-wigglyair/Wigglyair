@@ -3,17 +3,21 @@
 	}
 
 	h1{
-		color:lightsteelblue;
+		color:skyblue;
 		text-align: center;
 	}
 
 	h2{
-		color:lightsteelblue;
+		color:skyblue;
 	}
 
 	h3{
-		color:lightsteelblue;
+		color:skyblue;
 	}
+
+	h4{
+	}
+
 
 	table{
 		width: 100%;
@@ -28,3 +32,34 @@
 		text-align: center;
 	}
 	
+	a.button {
+    padding: 1px 6px;
+    border: 1px outset buttonborder;
+    border-radius: 3px;
+    border-color: deepskyblue;
+    color: deepskyblue;
+    background-color: black;
+    text-decoration: none;
+	}
+
+	li{
+		color:deepskyblue;
+	}
+
+	table{
+		table-layout: fixed;
+	}
+
+	th.links{
+		text-align: left;
+	}
+
+	td.links{
+		text-align: left;
+		vertical-align: top;
+	}
+
+	img.poster{
+		height:50%;
+		width:50%;
+	}
