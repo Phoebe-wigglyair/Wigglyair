@@ -1,0 +1,30 @@
+	body{
+		background-color:black;
+	}
+
+	h1{
+		color:lightsteelblue;
+		text-align: center;
+	}
+
+	h2{
+		color:lightsteelblue;
+	}
+
+	h3{
+		color:lightsteelblue;
+	}
+
+	table{
+		width: 100%;
+	}
+
+	p{
+		color:lightsteelblue;
+	}
+
+	tr{
+		color:lightsteelblue;
+		text-align: center;
+	}
+	
