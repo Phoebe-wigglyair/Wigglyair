@@ -60,6 +60,11 @@
 	}
 
 	img.poster{
-		height:50%;
-		width:50%;
+		height:85%;
+		width:85%;
+	}
+
+	img.profile{
+		height:100%;
+		width:100%;
 	}

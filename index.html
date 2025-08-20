@@ -5,6 +5,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Phoebe_Wigglyair online</title>
 	</head>
+
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		/* Create two unequal columns that floats next to each other */
+		.column {
+		  float: left;
+		  padding: 10px;
+
+		}
+
+		.left {
+		  width: 75%;
+		}
+
+		.right {
+		  width: 25%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		</style>
+
 	<link rel="stylesheet" href="Wigglystyle.css">
 	<body>
 		<h1>Phoebe_Wigglyair is online and hotter than ever</h1>
@@ -51,10 +80,32 @@
 
 		</table>
 		</h3>
-
 		<hr>
 
-		<h2>About Me</h2>
+		<div class="row">
+		  <div class="column left">
+		  	<h2>About Me</h2>
+		    <img class="profile" src="Media/Images/20250820 Profile.jpeg">
+		  </div>
+		  <div class="column right">
+		    <h2>Newest Blog Post</h2>
+		    <a href="Blog Posts/20250819.html">Hello Internet - 19/08/2025</a>
+		    <br>
+		    <br>
+		    <h2>Newest Zine</h2>
+		    <p>Hmm.....Coming Soon???</p>
+		    <br>
+		    <h2>Next Live Show</h2>
+		    <a href="https://www.picturehouses.com/movie-details/008/HO00016623/the-duke-of-york-s-115th-birthday-celebration?filter=" target="_blank"> <img class="poster" src="Gigs/Gig Posters/20250922 DOY.jpeg"> </a>
+		    <p>Phoebe Bentham @ Duke of Yorks - 22/09/25</p>
+		    <br>
+		    <h2>Currently Listening</h2>
+		    <a href="https://specific.bandcamp.com/album/shunka-ryougen" target="_blank"> <img class="poster" src="Media/Album Covers/20221001 HARU NEMURI.jpg"> </a>
+		    <p>HARU NEMURI - Shumka Ryougen</p>
+
+
+		  </div>
+		</div>
 
 	</body>
 </html>
