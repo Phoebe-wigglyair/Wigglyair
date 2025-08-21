@@ -5,6 +5,36 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Phoebe_Wigglyair Music</title>
 	</head>
+
+	<style>
+
+		* {
+		  box-sizing: border-box;
+		}
+
+		/* Create two unequal columns that floats next to each other */
+		.column {
+		  float: left;
+		  padding: 10px;
+
+		}
+
+		.left {
+		  width: 50%;
+		}
+
+		.right {
+		  width: 50%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+	</style>
+
 	<link rel="stylesheet" href="Wigglystyle.css">
 	<body>
 		<h1>Phoebe_Wigglyair is making Music</h1>
@@ -54,7 +84,31 @@
 
 		<hr>
 
-		<h2>Music</h2>
+		<div class="row">
+		  <div class="column left">
+			<h2>My Music</h2>
+				<a href="https://notrichard.bandcamp.com/album/not-hot" target="_blank">
+				<img class="poster" src="Media/Album Covers/20250801 NRAHM.jpg">
+				</a>
+				<p>Not Richard and Her Majesty - Not Hot</p>
+				<a href="https://songe.bandcamp.com/track/to-ashes" target="_blank">
+				<img class="poster" src="Media/Album Covers/20240726 Songe.jpg">
+				</a>
+				<p>Songe - To Ashes</p>
+				<a href="https://songe.bandcamp.com/album/songe-demo" target="_blank">
+				<img class="poster" src="Media/Album Covers/20231218 Songe.jpg">
+				</a>
+				<p>Songe - songe.demo</p>
+		  </div>
+		  <div class="column right">
+		    <h2>Music I've Been Listening To</h2>
+		    <a href="Album Reviews/20221001 HARU NEMURI.html" target="_self"> <img class="poster" src="Media/Album Covers/20221001 HARU NEMURI.jpg"> </a>
+		    <p>HARU NEMURI - Shumka Ryougen</p>
+		    <br>
+		    <br>
+		    <p>Everything else that I've been listening to..... <a href="https://bandcamp.com/phoebe_wigglyair" class="button" target="_blank">Here</a></p>
 
+		  </div>
+		</div>
 	</body>
 </html>

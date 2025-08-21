@@ -11,6 +11,17 @@
 		color:skyblue;
 	}
 
+	h2.links{
+
+		color:skyblue;
+		animation: linkmove 5s infinite;
+	}
+	@keyframes linkmove {
+
+ 		50% {color: red;}
+	}
+
+
 	h3{
 		color:skyblue;
 	}
@@ -33,14 +44,32 @@
 	}
 	
 	a.button {
-    padding: 1px 6px;
-    border: 1px outset buttonborder;
-    border-radius: 3px;
-    border-color: deepskyblue;
-    color: deepskyblue;
-    background-color: black;
-    text-decoration: none;
+	    padding: 1px 6px;
+	    border: 1px outset buttonborder;
+	    border-radius: 3px;
+	    border-color: deepskyblue;
+	    color: deepskyblue;
+	    background-color: black;
+	    text-decoration: none;
 	}
+
+	a.blog {
+
+		padding: 1px 6px;
+	    border: 1px outset buttonborder;
+	    border-radius: 3px;
+	    border-color: deepskyblue;
+	    color: deepskyblue;
+	    background-color: black;
+	    text-decoration: none;
+	    animation: mymove 5s infinite;
+	}
+
+	@keyframes mymove {
+ 		50% {border-color: lightblue;}
+ 		50% {color: lightblue;}
+	}
+
 
 	li{
 		color:deepskyblue;
