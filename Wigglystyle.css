@@ -34,6 +34,22 @@
 		width: 100%;
 	}
 
+	table.list{
+		max-width: 1000px;
+		margin: 0px auto;
+	}
+
+	div.list{
+		max-width: 1000px;
+		margin: 0px auto;
+	}
+
+	div.sticky{
+		position: sticky;
+		top:0;
+		background-color: black;
+	}
+
 	p{
 		color:lightsteelblue;
 	}
