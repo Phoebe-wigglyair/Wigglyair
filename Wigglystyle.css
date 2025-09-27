@@ -1,5 +1,5 @@
 	body{
-		background-color:black;
+	    background-image: url("Media/GIF/bckg.gif");
 	}
 
 	h1{
@@ -29,6 +29,32 @@
 	h4{
 	}
 
+	div.titleart{
+		line-height: 1.2;
+		word-spacing: 7.2px; 
+		white-space: pre; 
+		color: skyblue; 
+		text-align: center;
+	}
+
+	div.subart{
+		line-height: 1.2; 
+		word-spacing: 2.8px; 
+		white-space: pre; 
+		color: skyblue; 
+		font-size: 6px;
+	}
+
+	div.linkart{
+		line-height: 1.2; 
+		word-spacing: 2.8px; 
+		white-space: pre; 
+		color: skyblue; 
+		font-size: 6px;
+		color:skyblue;
+		animation: linkmove 5s infinite;
+		text-align: center;
+	}
 
 	table{
 		width: 100%;
@@ -37,11 +63,13 @@
 	table.list{
 		max-width: 1000px;
 		margin: 0px auto;
+		background-color: rgba(0, 0, 0, 0.4);
 	}
 
 	div.list{
 		max-width: 1000px;
 		margin: 0px auto;
+		background-color: rgba(0, 0, 0, 0.4);
 	}
 
 	div.sticky{
